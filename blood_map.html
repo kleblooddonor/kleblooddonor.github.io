@@ -107,6 +107,7 @@
   var lat = parseFloat(st[0]);
   var long = parseFloat(st[1]);
   var name = st[2];
+  name = name.replace('%20',' ');
   console.log(lat,long,name);
   var t = document.getElementById("a1");
   var t3 = document.getElementById("a3");

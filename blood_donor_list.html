@@ -138,16 +138,7 @@
 	var num;
 
 	function setup(){
-		var str1 = window.localStorage.getItem("blood");
-		if(str1 == 'donor')
-		{
-			console.log("correct");  
-		}
-		else
-		{
-			window.open("blood_donor_auth.html","_self");
-			console.log("wrong");
-		}
+		
 		loadFile();
 		
 	}
@@ -344,13 +335,6 @@
     alert("No Blood Donors Found for " + str1);
     window.open("blood_donor.html","_self");
   }
-
-
-
-
-
-
-
 
 
 
