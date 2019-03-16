@@ -1,0 +1,1000 @@
+  322  cd Desktop/
+  323  python2.7 matlab.py 
+  324  cd Desktop/
+  325  python2.7 matlab.py 
+  326  python2.7 
+  327  python2.7 matlab.py 
+  328  designer-qt4 
+  329  pyuic5 test.ui -o app.py
+  330  cd Desktop/
+  331  python2.7 app.py 
+  332  cd Desktop/
+  333  pyuic4 test.ui -o app.py
+  334  su
+  335  cd Desktop/
+  336  ls
+  337  python2.7 matlab.py 
+  338  designer 
+  339  su
+  340  pyuic4 untitled.ui -o app1.py
+  341  su
+  342  cd Desktop/s
+  343  cd Desktop/
+  344  ls
+  345  pyuic4 untitled.ui -o app2.py
+  346  pip install PyQt4
+  347  python2.7
+  348  python3.6
+  349  gedit /usr/bin/pyuic4 
+  350  pyuic4 untitled.ui -o app2.py
+  351  pyuic5 untitled.ui -o app2.py
+  352  pyuic4 untitled.ui -o app3.py
+  353  whereis python
+  354  gedit /usr/bin/pyuic4 
+  355  python2.7
+  356  python3.6
+  357  echo $ PYTHONPATH
+  358  python2.7
+  359  gedit /usr/bin/pyuic4 
+  360  su
+  361  pyuic4 untitled.ui -o app3.py
+  362  su
+  363  python2.7 app2.py 
+  364  python2.7 matlab.py 
+  365  cd Desktop/
+  366  python2.7 matlab.py 
+  367  python2.7
+  368  su
+  369  cd Desktop/
+  370  python server_cors.py 
+  371  su
+  372  cd Desktop/
+  373  ls
+  374  python 2.7
+  375  python2.7
+  376  su
+  377  python2.7
+  378  designer
+  379  cd Desktop/
+  380  python2.7 appnew.py 
+  381  python2.7
+  382  pip install --upgrade pip
+  383  pip install python-qt5
+  384  su
+  385  python2.7
+  386  python2.7 Desktop/matlab.py
+  387  python2.7
+  388  pip install pymatlab
+  389  python2.7
+  390  python
+  391  pip install pymatbridge
+  392  python2.7
+  393  python
+  394  su
+  395  cd Desktop/
+  396  python server_cors.py 
+  397  su
+  398  lshw -short -C memory
+  399  lshw
+  400  su
+  401  cd Desktop/
+  402  python server_cors.py 
+  403  cd Desktop/
+  404  python server_cors.py 
+  405  ls
+  406  rm cookies.txt 
+  407  sudo apt-get install phantomjs
+  408  su
+  409  phantomjs script.js
+  410  su
+  411  brew doctor
+  412  brew install pyside
+  413  git clone https://github.com/Homebrew/linuxbrew.git ~/.linuxbrew
+  414  export PATH="$HOME/.linuxbrew/bin:$PATH"
+  415  export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
+  416  export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
+  417  brew doctor
+  418  brew link cmake
+  419  pip install -U PySide
+  420  brew install qt
+  421  pip install -U pip
+  422  pip install Ghost.py
+  423  python
+  424  cd Desktop/
+  425  python login.py 
+  426  pyton
+  427  python
+  428  cd Desktop/
+  429  python login.py 
+  430  pip install PyQt4
+  431  python
+  432  python2.7 
+  433  python2.7 login.py 
+  434  python2.7 
+  435  python
+  436  python2.7
+  437  su
+  438  cd Desktop/
+  439  python server_cors.py 
+  440  vlc
+  441  su
+  442  python
+  443  ip addr show
+  444  python server_cors.py 
+  445  cd Desktop/web_html/
+  446  python server_cors.py 
+  447  man say
+  448  import urllib.request,os,hashlib; 
+  449  python server_cors.py 
+  450  pyth
+  451  python server_cors.py 
+  452  cd Desktop/web_html/
+  453  git clone https://github.com/rushikc/rushikc.github.io.git
+  454  ls
+  455  git status
+  456  cd rushikc.github.io/
+  457  git status
+  458  ls
+  459  git add .
+  460  git status 
+  461  git replace .
+  462  git reset
+  463  git status 
+  464  git add .
+  465  git status 
+  466  git commit -m 'from linux'
+  467  git push
+  468  git status 
+  469  git add exam_sorted/420.txt 
+  470  git commit -m 'from linux'
+  471  git push
+  472  git status
+  473  git add index.html about.html contact.html js/about.js server_cors.py 
+  474  git status
+  475  git commit -m 'from linux'
+  476  git push
+  477  git pull
+  478  git push
+  479  git status 
+  480  cd ..
+  481  git clone /home/rushi/Desktop/web_html/rushikc.github.io/about.html
+  482  /home/rushi/Desktop/web_html/rushikc.github.io/index.html
+  483  /home/rushi/Desktop/web_html/rushikc.github.io/server_cors.pyz
+  484  git clone https://github.com/rushikc/rushikc.github.io.git
+  485  cd rushikc.github.io/
+  486  git status
+  487  git add about.html index.html server_cors.py js/about.js 
+  488  git commit -m linux
+  489  git status
+  490  git push
+  491  git status 
+  492  git ad
+  493  git commit -m from linux
+  494  git commit -m 'from linux'
+  495  git push
+  496  machine github.com
+  497  git config --global credential.helper cache
+  498  git config --global credential.helper 'cache --timeout=3600'
+  499  git config --global credential.helper 'cache --timeout=36000000'
+  500  git add index.html 
+  501  git status 
+  502  git commit -m 'from linux'
+  503  git status 
+  504  git add about.html 
+  505  git commit -m 'from linux'
+  506  git push
+  507  git status 
+  508  git add about.html 
+  509  git commit -m 'from linux'
+  510  git push
+  511  python server_cors.py 
+  512  python sort_letter.py 
+  513  python
+  514  cd Desktop/img/
+  515  python
+  516  ps
+  517  man kill
+  518  su
+  519  cd Desktop/
+  520  python server_cors.py 
+  521  cd web_html/
+  522  ls
+  523  cd website/
+  524  ls
+  525  python server_cors.py 
+  526  cd ..
+  527  git clone https://github.com/rushikc/rushikc.github.io.git
+  528  cd rushikc.github.io/
+  529  ls
+  530  git status
+  531  git add null.html
+  532  git commit -m 'from linux'
+  533  git push
+  534  git branch new
+  535  git checkout new
+  536  git status 
+  537  git add null.html
+  538  git commit -m 'from linux'
+  539  git push
+  540  git push --set-upstream origin new
+  541  python server_cors.py 
+  542  python rename.py 
+  543  su
+  544  su
+  545  cd Desktop/
+  546  python2.7 matlab.py 
+  547  python2.7
+  548  python2.7 mat.py 
+  549  gedit mat.py 
+  550  python2.7
+  551  ls
+  552  gedit test.py 
+  553  gedit mat.py
+  554  python2.7 mat.py 
+  555  gedit mat.py
+  556  python2.7 mat.py 
+  557  gedit mat.py
+  558  python2.7 mat.py 
+  559  gedit mat2.py
+  560  python2.7 mat2.py 
+  561  gedit mat2.py
+  562  python2.7 mat2.py 
+  563  python2.7 mat.py 
+  564  cd Desktop/
+  565  ls
+  566  cd Matlab/
+  567  ls
+  568  git clone https://github.com/sachinkariyattin/HWCR.git
+  569  python mat2.py 
+  570  python2.7 mat2.py 
+  571  designer-qt4 
+  572  cd Desktop/
+  573  pyuic4 untitled.ui -o m1.py
+  574  chmod 777 untitled.ui 
+  575  pyuic4 untitled.ui -o m1.py
+  576  su
+  577  python2.7 mat.py 
+  578  su
+  579  bc
+  580  ls
+  581  sublime 
+  582  subl 
+  583  subl pass.py
+  584  python pass.py 
+  585  ls
+  586  gedit pass1.txt 
+  587  chmod 777 burpsuite_community_linux_v1_7_36.sh 
+  588  ./burpsuite_community_linux_v1_7_36.sh 
+  589  cd ..
+  590  cd Desktop/Program/pass/
+  591  python pass.py 
+  592  gedit pass1.txt 
+  593  python pass.py 
+  594  gedit pass1.txt 
+  595  python pass.py 
+  596  python server_cors.py 
+  597  cd Desktop/web_html/website/gallery/id_images/
+  598  ls
+  599  cd /
+  600  ls
+  601  cd home/rushi/PycharmProjects/rusic/Web/Exam_photo/
+  602  ls
+  603  cd img
+  604  ls
+  605  cd ..
+  606  cd img22/
+  607  ls
+  608  bc
+  609  ls
+  610  cd Desktop/
+  611  ls
+  612  mkdir 5th_sem
+  613  cd 5th_sem/
+  614  mkdir cn_lab
+  615  cd cn_lab/
+  616  gedit crc.cpp
+  617  cpp crc.cpp 
+  618  g++ crc.cpp 
+  619  ./a.out 
+  620  g++ crc.cpp 
+  621  ./a.out 
+  622  g++ crc2.cpp 
+  623  ./a.out 
+  624  g++ crc.cpp 
+  625  ./a.out 
+  626  g++ crc.cpp 
+  627  ./a.out 
+  628  vi crc.cpp 
+  629  g++ crc.cpp 
+  630  ./a.out 
+  631  g++ crc.cpp 
+  632  ./a.out 
+  633  g++ crc.cpp 
+  634  ./a.out 
+  635  g++ crc.cpp 
+  636  ./a.out 
+  637  g++ crc.cpp 
+  638  ./a.out 
+  639  g++ crc.cpp 
+  640  ./a.out 
+  641  g++ crc.cpp 
+  642  ./a.out 
+  643  g++ crc.cpp 
+  644  ./a.out 
+  645  g++ crc.cpp 
+  646  ./a.out 
+  647  g++ crc.cpp 
+  648  ./a.out 
+  649  g++ crc.cpp 
+  650  ./a.out 
+  651  g++ crc.cpp 
+  652  ./a.out 
+  653  g++ crc.cpp 
+  654  ./a.out 
+  655  g++ crc.cpp 
+  656  ./a.out 
+  657  g++ crc.cpp 
+  658  ./a.out 
+  659  g++ crc.cpp 
+  660  ./a.out 
+  661  g++ test.cpp 
+  662  ./a.out 
+  663  g++ test.cpp 
+  664  ./a.out 
+  665  g++ test.cpp 
+  666  ./a.out 
+  667  g++ test.cpp 
+  668  ./a.out 
+  669  g++ test.cpp 
+  670  ./a.out 
+  671  g++ test.cpp 
+  672  ./a.out 
+  673  g++ crc.cpp 
+  674  ./a.out 
+  675  g++ crc.cpp 
+  676  ./a.out 
+  677  g++ crc.cpp 
+  678  ./a.out 
+  679  g++ crc.cpp 
+  680  ./a.out 
+  681  g++ crc.cpp 
+  682  ./a.out 
+  683  g++ crc.cpp 
+  684  ./a.out 
+  685  cd Desktop/5th_sem/cn_lab/
+  686  g++ crc.cpp 
+  687  ./a.out 
+  688  g++ crc.cpp 
+  689  ./a.out 
+  690  g++ crc.cpp 
+  691  ./a.out 
+  692  g++ crc.cpp 
+  693  ./a.out 
+  694  g++ crc.cpp 
+  695  ./a.out 
+  696  python
+  697  g++ crc.cpp 
+  698  python
+  699  ./a.out 
+  700  g++ crc.cpp 
+  701  ./a.out 
+  702  g++ crc.cpp 
+  703  ./a.out 
+  704  g++ crc.cpp 
+  705  ./a.out 
+  706  g++ hamming.cpp 
+  707  ./a.out 
+  708  g++ hamming.cpp 
+  709  ./a.out 
+  710  g++ hamming.cpp 
+  711  ./a.out 
+  712  g++ hamming.cpp 
+  713  ./a.out 
+  714  g++ hamming.cpp 
+  715  ./a.out 
+  716  g++ hamming.cpp 
+  717  ./a.out 
+  718  g++ hamming.cpp 
+  719  ./a.out 
+  720  g++ hamming.cpp 
+  721  ./a.out 
+  722  g++ hamming.cpp 
+  723  ./a.out 
+  724  g++ hamming.cpp 
+  725  ./a.out 
+  726  g++ hamming.cpp 
+  727  ./a.out 
+  728  g++ hamming.cpp 
+  729  ./a.out 
+  730  g++ hamming.cpp 
+  731  ./a.out 
+  732  g++ hamming.cpp 
+  733  ./a.out 
+  734  g++ hamming.cpp 
+  735  ./a.out 
+  736  g++ hamming.cpp 
+  737  ./a.out 
+  738  g++ hamming.cpp 
+  739  ./a.out 
+  740  g++ hamming.cpp 
+  741  ./a.out 
+  742  g++ hamming.cpp 
+  743  ./a.out 
+  744  g++ hamming.cpp 
+  745  ./a.out 
+  746  g++ hamming.cpp 
+  747  ./a.out 
+  748  g++ hamming.cpp 
+  749  ./a.out 
+  750  g++ hamming.cpp 
+  751  ./a.out 
+  752  NODE -V
+  753  node -v
+  754  npm -v
+  755  su
+  756  free -m
+  757  sudo free -m
+  758  su
+  759  wireshark 
+  760  vlc
+  761  wireshark
+  762  vlc
+  763  wireshark
+  764  cd Desktop/
+  765  ls
+  766  chmod 777 path.sh 
+  767  ./path.sh 
+  768  ldd ./path.sh 
+  769  su
+  770  git status
+  771  git push
+  772  git pull
+  773  git push
+  774  git status
+  775  git add examdata.txt 
+  776  git commit -a
+  777  python server_cors.py 
+  778  git status
+  779  git commit -a examdata.txt 
+  780  git commit examdata.txt 
+  781  git commit "linux"  examdata.txt 
+  782  git commit examdata.txt "linux"
+  783  git commit -m "new exam data"
+  784  git push
+  785  git status
+  786  git add js/display.js 
+  787  git commit -m "linux"
+  788  git push
+  789  git status
+  790  git add js/display.js 
+  791  git commit -m "linux"
+  792  git push
+  793  git add js/display.js 
+  794  git commit -m "linux"
+  795  git push
+  796  git add js/display.js 
+  797  git commit -m "linux"
+  798  git push
+  799  python server_cors.py 
+  800  git clone https://github.com/rushic1/rushic1.github.io.git
+  801  free -m
+  802  su
+  803  docker
+  804  su
+  805  free -m
+  806  python server_cors.py 
+  807  telnet towel.blinkenlights.nl
+  808  su
+  809  CD l
+  810  cd LibreOffice_6.1.1.2_Linux_x86-64_deb/
+  811  ls
+  812  cd DEBS/
+  813  ls
+  814  sudo dpkg -i *.deb
+  815  su
+  816  bc
+  817  su
+  818  bc
+  819  su
+  820  11000+3334+430
+  821  bc
+  822  python
+  823  python server_cors.py 
+  824  git status
+  825  git commit -a
+  826  git add -a
+  827  git add -A
+  828  git status
+  829  git commit -m "mod for blood_donation"
+  830  git push
+  831  dig ww.techmsrit.tk
+  832  dig www.techmsrit.tk
+  833  git satus
+  834  git
+  835  git status
+  836  git pull
+  837  ftp-rfc ftp.cdc.gov
+  838  ftp ftp.cdc.gov
+  839  su
+  840  ftp 192.168.100.53
+  841  SU
+  842  su
+  843  ftp ftp.cdc.gov
+  844  su
+  845  wireshark
+  846  su
+  847  docker version 
+  848  docker ps
+  849  su
+  850  docker ps
+  851  systemctl start docker
+  852  docker ps
+  853  su
+  854  ls
+  855  cd Downloads/
+  856  ls
+  857  mongo
+  858  cd bin/
+  859  ls
+  860  ./mongo
+  861  ./mongod
+  862  ls
+  863  mongod
+  864  chmod 777 mongod
+  865  ./mongod
+  866  chmod 777 mongo
+  867  ./mongo
+  868  mongo
+  869  su
+  870  su
+  871  cd bin
+  872  ls
+  873  ./install_compass 
+  874  su
+  875  cd bin
+  876  ls
+  877  mongo
+  878  ./mongo
+  879  su
+  880  mongo
+  881  ./mongod
+  882  mongo
+  883  ./mongo
+  884  export PATH=<mongodb-install-directory>/bin:$PATH
+  885  export PATH=/home/rushi/Desktop/5th_sem/mongodb/bin:$PATH
+  886  ./mongod
+  887  ./mongo
+  888  mongo
+  889  uname -a
+  890  mongo
+  891  ./mongod
+  892  mongo
+  893  ./mongo
+  894  su
+  895  mongo --host 127.0.0.1:27017
+  896  mongo --host 127.0.0.1:2701
+  897  mongod
+  898  mongo --host 127.0.0.1:2701
+  899  mkdir -p /data/db
+  900  su
+  901  ls
+  902  ./install_compass 
+  903  su
+  904  ./mongod
+  905  su
+  906  mongo
+  907  ./mongo
+  908  su
+  909  .mongo
+  910  ./mongo
+  911  ./mongod
+  912  chmod 777 /data/db/
+  913  chmod 777 /data/db
+  914  su
+  915  ./mongod
+  916  su
+  917  ./mongo
+  918  mkdir -p /data/db
+  919  chmod 777 /data/db/
+  920  su
+  921  mkdir -p /data/db
+  922  chmod 777 /data/db/
+  923  su
+  924  mkdir -p /data/db
+  925  chmod 777 /data/db/
+  926  su
+  927  man mkdir
+  928  pip3 
+  929  pip3 install docx2csv
+  930  python
+  931  clear
+  932  ls
+  933  cd Desktop/
+  934  ls
+  935  cd 5th_sem/
+  936  ls
+  937  ./mongo
+  938  mkdir -P data/db/
+  939  su
+  940  ls
+  941  gcc crc.cpp 
+  942  gedit crc.cpp 
+  943  gcc crc.cpp 
+  944  ipconfig
+  945  ifconfig
+  946  ifconfig 
+  947  ifconfig /all
+  948  ifconfig -a
+  949  su
+  950  ls
+  951  gcc crc.cpp 
+  952  ifconfig 
+  953  gcc -o client.c 
+  954  gcc -o c1.c
+  955  gcc c1.c
+  956  ./a.out 
+  957  gcc c1.c
+  958  ./a.out 
+  959  gcc -o s2.c
+  960  gcc -o ser s2.c
+  961  ./s2
+  962  ./ser
+  963  ls
+  964  gedit s2.c 
+  965  gcc -o ser s2.c
+  966  ./ser
+  967  gcc -o ser s2.c
+  968  ./ser
+  969  gedit crc.cpp 
+  970  g++ crc.cpp 
+  971  ./a.out 
+  972  gedit crc.cpp 
+  973  ./a.out 
+  974  clear
+  975  gedit server.c
+  976  gedit client.c
+  977  gcc -o server.c 
+  978  cat > 11.txt
+  979  gcc -o 11.txt server.c 
+  980  ./a.out 
+  981  gcc s1.c
+  982  ./a.out 
+  983  gcc -o cli c2.c
+  984  ./cli
+  985  chmod 777 11.txt 
+  986  ./cli
+  987  gcc -o cli c2.c
+  988  ./cli
+  989  gcc -o ser s2.c
+  990  ./ser
+  991  gcc -o cli c2.c
+  992  ./cli
+  993  gcc -o cli server.c 
+  994  gcc -o ser server.c 
+  995  ./ser
+  996  gcc -o ser s1.c 
+  997  /.s1
+  998  ./ser 
+  999  gedit c22.c
+ 1000  gcc server.c 
+ 1001  cc server.c 
+ 1002  gcc -o server.c 
+ 1003  cc -o server.c 
+ 1004  cc -o server.c 11.txt 
+ 1005  gcc -o cli client.c
+ 1006  ./cli
+ 1007  gcc -o cli c1.c
+ 1008  ./cli
+ 1009  gedit c1.c
+ 1010  gedit s1.c
+ 1011  gedit s2.c
+ 1012  gedit c2.c
+ 1013  gcc client.c 
+ 1014  cc -o client.c 
+ 1015  ls
+ 1016  cc -o client.c word_file.py 
+ 1017  cat > 11.tx
+ 1018  cc -o client.c 11.txt 
+ 1019  gcc -o ser s22.c
+ 1020  ./ser
+ 1021  gcc -o ser s2.c
+ 1022  ./ser
+ 1023  gcc -o cli c2.c 
+ 1024  ./cli 
+ 1025  ./cli
+ 1026  g++ crc.cpp 
+ 1027  ./a.out 
+ 1028  gcc -o cli c2.c 
+ 1029  ./cli
+ 1030  gcc -o ser s2.c 
+ 1031  ./ser
+ 1032  gcc crc.c
+ 1033  gcc ham.c
+ 1034  ./a.out 
+ 1035  gcc crc.c
+ 1036  ./a.out 
+ 1037  gcc -o cli c2.c 
+ 1038  ./cli
+ 1039  su
+ 1040  su
+ 1041  su
+ 1042  gcc -o ser s22.c
+ 1043  ./ser
+ 1044  mkdir rm
+ 1045  cd rm
+ 1046  ls
+ 1047  wget https://goflo.in/rcrc.cpp
+ 1048  history
+ 1049  vi 1.py
+ 1050  gcc -o cli c2.c
+ 1051  ./cli
+ 1052  ls
+ 1053  gedit hist.txt 
+ 1054  ifconfig
+ 1055  clear
+ 1056  sudo dhclient -v -r wlan0
+ 1057  clear
+ 1058  su
+ 1059  ls
+ 1060  ls -t
+ 1061  history
+ 1062  set +o history
+ 1063  history
+ 1064  ls -t
+ 1065  history
+ 1066  bc
+ 1067  git 
+ 1068  git status
+ 1069  git
+ 1070  git status
+ 1071  git pull
+ 1072  git clone https://github.com/rushikc1/WebScraper-exam.msrit.edu-.git
+ 1073  git clone https://github.com/rushikc/rushikc.github.io.git
+ 1074  git status
+ 1075  cd rushikc.github.io
+ 1076  git status 
+ 1077  git commit -m 'linux'
+ 1078  git add -A && git commit -m "linux"
+ 1079  git push
+ 1080  git clone https://github.com/rushikc/WebScraper-exam.msrit.edu.git
+ 1081  cd WebScraper-exam.msrit.edu/
+ 1082  git status
+ 1083  git add -A & commit -m "Linux" 
+ 1084  git add -A && git commit -m "linux"
+ 1085  git push
+ 1086  cd ..
+ 1087  pull
+ 1088  git
+ 1089  satus
+ 1090  git satus
+ 1091  history 
+ 1092  dig techmsrit.tk +noall +answer
+ 1093  dig rushikc.github.io +noall +answer
+ 1094  dig techmsrit.tk +noall +answer
+ 1095  dig rushikc.github.io +noall +answer
+ 1096  dig techmsrit.tk +noall +answer
+ 1097  dig rushikc.github.io +noall +answer
+ 1098  dig techmsrit.tk +noall +answer
+ 1099  dig rushikc.github.io +noall +answer
+ 1100  dig techmsrit.tk +noall +answer
+ 1101  git clone https://github.com/rushikc/rushikc.github.io.git
+ 1102  cd rushikc.github.io/
+ 1103  git status 
+ 1104  git add -A && git commit -m "linux"
+ 1105  git config --global user.name "Your Name"
+ 1106  git config --global user.name "rushikc"
+ 1107  git config --global user.email "1ms16cs021@gmail.com"
+ 1108  git add -A && git commit -m "linux"
+ 1109  git status
+ 1110  git push
+ 1111  git status
+ 1112  git add -A && git commit -m "linux"
+ 1113  git push
+ 1114  git add -A && git commit -m "linux"
+ 1115  git push
+ 1116  git add -A && git commit -m "linux"
+ 1117  git push
+ 1118  git add -A && git commit -m "linux"
+ 1119  git push
+ 1120  git status
+ 1121  git add -A && git commit -m "linux"
+ 1122  git push
+ 1123  git add -A && git commit -m "linux"
+ 1124  git push
+ 1125  python server_cors.py 
+ 1126  wget http://goflo.in/c.txt
+ 1127  ls
+ 1128  gedit c.txt 
+ 1129  python server_cors.py 
+ 1130  git status
+ 1131  git add -A && git commit -m "linux"
+ 1132  git push
+ 1133  git push
+ 1134  git status
+ 1135  git add -A && git commit -m "linux"
+ 1136  git push
+ 1137  git add -A && git commit -m "linux"
+ 1138  git push
+ 1139  git add -A && git commit -m "linux"
+ 1140  git push
+ 1141  git add -A && git commit -m "linux"
+ 1142  git push
+ 1143  git add -A && git commit -m "linux"
+ 1144  git push
+ 1145  git add -A && git commit -m "linux"
+ 1146  git push
+ 1147  git add -A && git commit -m "linux"
+ 1148  git push
+ 1149  git add -A && git commit -m "linux"
+ 1150  git push
+ 1151  git add -A && git commit -m "linux"
+ 1152  git push
+ 1153  git add -A && git commit -m "linux"
+ 1154  git push
+ 1155  git add -A && git commit -m "linux"
+ 1156  git push
+ 1157  git add -A && git commit -m "linux"
+ 1158  git push
+ 1159  git add -A && git commit -m "linux"
+ 1160  git push
+ 1161  git add -A && git commit -m "linux"
+ 1162  git push
+ 1163  git add -A && git commit -m "linux"
+ 1164  git push
+ 1165  ls
+ 1166  gedit fasttrack.txt 
+ 1167  gedit dnsmap.txt 
+ 1168  gedit nmap.lst 
+ 1169  cd rm
+ 1170  gedit test.java
+ 1171  su
+ 1172  git status
+ 1173  git add -A && git commit -m "linux"
+ 1174  git push
+ 1175  chmod 777 upload.php 
+ 1176  ./upload.php 
+ 1177  php upload.php 
+ 1178  python server_cors.py 
+ 1179  php -S localhost:8000
+ 1180  python server_cors.py 
+ 1181  python
+ 1182  git status
+ 1183  python
+ 1184  su
+ 1185  git clone https://github.com/rlsblooddonor/rlsblooddonor.github.io.git
+ 1186  git status
+ 1187  pyhon server_cors.py 
+ 1188  python server_cors.py 
+ 1189  git add -A && git commit -m "linux"
+ 1190  git push
+ 1191  git add -A && git commit -m "linux"
+ 1192  git push
+ 1193  git add -A && git commit -m "linux"
+ 1194  git push
+ 1195  git add -A && git commit -m "linux"
+ 1196  git push
+ 1197  git add -A && git commit -m "linux"
+ 1198  git push
+ 1199  bc
+ 1200  su
+ 1201  git status
+ 1202  git add -A && git commit -m "linux"
+ 1203  git push
+ 1204  history 
+ 1205  php -S localhost:8000
+ 1206  python server_cors.py 
+ 1207  su
+ 1208  history
+ 1209  su
+ 1210  python --version
+ 1211  sudo apt-get -y install ipython ipython-notebook
+ 1212  su
+ 1213  python --version
+ 1214  su
+ 1215  jupyter notebook
+ 1216  python
+ 1217  python test.py 
+ 1218  python
+ 1219  blender
+ 1220  history
+ 1221  blender
+ 1222  su
+ 1223  python
+ 1224  bc
+ 1225  PWD
+ 1226  pwd
+ 1227  bc
+ 1228  kill -9 -1
+ 1229  ls
+ 1230  python
+ 1231  jupyter
+ 1232  jupyter --paths
+ 1233  jupyter --config-dir
+ 1234  jupyter
+ 1235  history 
+ 1236  jupyter notebook
+ 1237  ls
+ 1238  ls+
+ 1239  jupyter notebook
+ 1240  jupyter notebook
+ 1241  history
+ 1242  blender
+ 1243  su
+ 1244  python
+ 1245  su
+ 1246  jupyter notebook
+ 1247  python
+ 1248  ./eclipse 
+ 1249  ./eclipse 
+ 1250  su
+ 1251  ./eclipse 
+ 1252  ls
+ 1253  ./eclipse 
+ 1254  gitclone https://github.com/rushikc/java-lab.git
+ 1255  git clone https://github.com/rushikc/java-lab.git
+ 1256  git status
+ 1257  git clone https://github.com/rushikc/java-lab.git
+ 1258  git clone
+ 1259  git status
+ 1260  git commit ""
+ 1261  git commit "from rushi"
+ 1262  git add *
+ 1263  git commit "from rushi"
+ 1264  git commit *
+ 1265  ./eclipse
+ 1266  git status
+ 1267  history
+ 1268  git add -A && git commit -m "linux"
+ 1269  git push
+ 1270  git add -A && git commit -m "linux"
+ 1271  git push
+ 1272  javac swing.java 
+ 1273  ls
+ 1274  java swing
+ 1275  javac swing.java 
+ 1276  java swing
+ 1277  javac swing.java 
+ 1278  java swing
+ 1279  javac swing.java 
+ 1280  java swing
+ 1281  javac swing.java 
+ 1282  java swing
+ 1283  ps
+ 1284  javac button.java 
+ 1285  javac label.java 
+ 1286  java label
+ 1287  javac label1.java 
+ 1288  java label1
+ 1289  git add -A && git commit -m "linux"
+ 1290  git push
+ 1291  javac TextFieldExample.java 
+ 1292  java TextFieldExample 
+ 1293  clear
+ 1294  git add -A && git commit -m "linux"
+ 1295  git push
+ 1296  mysql -version
+ 1297  mysql --version
+ 1298  mysql
+ 1299  sudo apt-get install mysql-common 
+ 1300  su
+ 1301  python
+ 1302  pip install pyinstaller
+ 1303  ./t2 
+ 1304  ./t2
+ 1305  pyinstaller -w t2.py 
+ 1306  pyinstaller -F t2.py 
+ 1307  pyinstaller -w t2.py 
+ 1308  ./t2
+ 1309  ./t2
+ 1310  pyinstaller t2.py 
+ 1311  python
+ 1312  pyinstaller -F t2.py 
+ 1313  ./t2
+ 1314  python
+ 1315  jupyter notebook
+ 1316  python
+ 1317  ./build.py --enable-examples --enable-tests
+ 1318  python server_cors.py 
+ 1319  pyinshistory
+ 1320  history
+ 1321  history > 1.txt

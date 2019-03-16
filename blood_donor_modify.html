@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- msrit Assist -->
+	<title>Blood Donors</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script language="javascript" type="text/javascript" src="js/p5.js"></script>
+	<script language="javascript" type="text/javascript" src="js/p5.dom.js"></script>
+	<script type="text/javascript" src="js/exam.js"></script>
+
+
+	<script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
+
+
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body >
+
+	<div class="fixed-top">
+
+		<nav class="navbar navbar-expand-lg navbar-dark mx-background-top-linear">
+			<div class="container">
+				<a class="navbar-brand" href="index.html" style="text-transform: uppercase;"> Blood Donors</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+
+					<ul class="navbar-nav ml-auto">
+
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="sis.html">SIS Portal</a>
+        </li> -->
+
+        <!-- <li class="nav-item">
+        	<a class="nav-link" href="exam.html">Exam results</a>
+        </li>
+ -->
+        <li class="nav-item">
+        	<a class="nav-link" href="blood_donor_auth.html">Blood donors</a>
+        </li>
+
+        <li class="nav-item">
+        	<a class="nav-link" href="about.html">About</a>
+        </li>
+
+        <li class="nav-item">
+        	<a class="nav-link" href="feedback.html">Feedback</a>
+        </li>
+    </ul>
+</div>
+</div>
+</nav>
+</div>
+
+<h2 id ="exam_head">Blood Donors Registration</h2>
+
+
+
+
+
+
+<div class="container" id="examf1" style="width:100%">
+
+	<div class="panel-group" >
+		<div class="panel panel-primary" >
+			<!-- <div class="panel-heading">Blood Donors</div> -->
+
+
+
+			<div class="panel-body" >
+				<form id='form1'method="GET">
+					<div class="form-group">
+						<label for="inputEmail4">Email</label>
+						<input type="mail" class="form-control" id="a1" name="name" placeholder="email" required>
+					</div>
+
+					<div class="form-group">
+						<label class="mr-sm-2" for="inlineFormCustomSelect">Blood type</label>
+						<select class="custom-select mr-sm-2" id="a2" name ="blood" required="" >
+
+							<option value="avail">Mark as available</option>
+							<option value="notavail">Mark as not available</option>
+							
+
+						</select>
+					</div>
+
+
+
+					<button type="button" class="btn btn-primary" onclick="putinfo()">Submit</button>
+				</form>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+</body>
+<script type="text/javascript">
+
+	function myFunction()
+	{
+		var str1 = window.localStorage.getItem("blood");
+		if(str1 == 'donor')
+		{
+			console.log("correct");  
+		}
+		else
+		{
+			window.open("blood_donor_auth.html","_self");
+			console.log("wrong");
+
+		}
+	}
+
+	var config = {
+		apiKey: "AIzaSyCvLRwJ4PNd4joJKBjbe8458QLGuey1qYg",
+		authDomain: "techmsrit1.firebaseapp.com",
+		databaseURL: "https://techmsrit1.firebaseio.com",
+		projectId: "techmsrit1",
+		storageBucket: "techmsrit1.appspot.com",
+		messagingSenderId: "193681871061"
+	};
+	firebase.initializeApp(config);
+
+	
+
+	function putinfo(){
+
+		var mail = document.getElementById('a1').value;
+		var avail = document.getElementById('a2').value;
+		console.log(mail);
+		console.log(avail);
+		var  m = mail.replace('@','');
+		m = m.replace('.','');
+		var ref = firebase.database().ref("donors/"+m);
+
+
+
+		ref.update(
+		{
+			avail : avail
+		});
+
+
+
+		alert('Successfully Changed your status');
+		document.getElementById('form1').reset();
+
+
+	}
+
+</script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+</html>

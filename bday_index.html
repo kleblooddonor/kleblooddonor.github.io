@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+  <!-- msrit Assist -->
+  <title>Tech MSRIT</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+  <!--<script language="javascript" type="text/javascript" src="js/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="js/p5.dom.min.js"></script> -->
+  <link rel="icon" type="image/gif/png" href="red.png">
+
+<!-- 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+
+  <!-- w3school for black dropdown box -->
+
+
+
+</head>
+<body>
+
+  <div class="fixed-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark mx-background-top-linear">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" style="text-transform: uppercase;"> TECH MSRIT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="exam.html">Exam Result</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="bday.html">MSRIT Gallery</a>
+          </li>
+
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="blood_donor_auth.html">Blood donors</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="feedback.html">Feedback</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+
+<div id="w3list" class="w3-container" style="width:90%">
+
+
+<button onclick="myFunction('Demo1')" class="w3-button w3-block w3-black w3-left-align">Birthday calender</button>
+<div id="Demo1" class="w3-hide w3-container">
+    <p>Birthday calender<br><a href="bday-exam.html" class="btn btn-pill btn-primary">Open</a></br></p>
+</div>
+<br></br>
+
+<button onclick="myFunction('Demo2')" class="w3-button w3-block w3-black w3-left-align">Birthday today</button>
+<div id="Demo2" class="w3-hide w3-container">
+    <p>People having birthday today<br><a href="bday_today.html" class="btn btn-pill btn-primary">Open</a></br></p>
+</div>
+<br></br>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+  function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+      x.previousElementSibling.className = 
+      x.previousElementSibling.className.replace("w3-black", "w3-blue");
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+      x.previousElementSibling.className = 
+      x.previousElementSibling.className.replace("w3-blue", "w3-black");
+    }
+  }
+</script>
+
+<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
