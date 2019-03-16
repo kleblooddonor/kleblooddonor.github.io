@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+  <!-- msrit Assist -->
+  <title>Blood Donors</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script language="javascript" type="text/javascript" src="js/p5.js"></script>
+  <script language="javascript" type="text/javascript" src="js/p5.dom.js"></script>
+  <script type="text/javascript" src="js/exam.js"></script>
+
+
+
+
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body onload="myFunction()";>
+
+
+
+<div class="fixed-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark mx-background-top-linear">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" style="text-transform: uppercase;"> Blood Donors</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="sis.html">SIS Portal</a>
+          </li> -->
+
+    <!--      <li class="nav-item">
+            <a class="nav-link" href="exam.html">Exam results</a>
+          </li> -->
+
+          <li class="nav-item">
+            <a class="nav-link" href="blood_donor_auth.html">Blood donors</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="feedback.html">Feedback</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+
+
+  <h2 id ="exam_head">Blood Donors</h2>
+
+
+
+
+
+
+  <div class="container" id="examf1" style="width:100%">
+
+    <div class="panel-group" >
+      <div class="panel panel-primary" >
+        <div class="panel-heading">Blood Donors</div>
+
+
+
+        <div class="panel-body" >
+
+          <form name="branchform" action="blood_donor_list.html" method="GET">
+            <div class="form-row align-items-center">
+
+
+              <div class="col-auto my-1">
+                <label class="mr-sm-2" for="inlineFormCustomSelect">Blood type</label>
+                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" name ="type" required="" >
+                  <option value="0">All</option>
+                  <option value="1">O+</option>
+                  <option value="2">A+</option>
+                  <option value="3">B+</option>
+                  <option value="4">AB+</option>
+                  <option value="5">O-</option>
+                  <option value="6">A-</option>
+                  <option value="7">B-</option>
+                  <option value="8">AB-</option>
+
+                </select>
+              </div>
+             
+
+              
+              <div class="col-auto my-1" id = 'exam_but1'>
+                <button type="submit" value="Submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container" id="examf1" style="width:100%">
+
+    <div class="panel-group" >
+      <div class="panel panel-primary" >
+        <div class="panel-heading"></div>
+
+
+
+        <div class="panel-body" >
+
+          <form name="branchform" action="blood_register.html" method="GET">
+            <div class="form-row align-items-center">
+
+
+              <div class="col-auto my-1">
+                <label class="mr-sm-2" for="inlineFormCustomSelect">Register A New Blood Donor</label>
+              </div>
+             
+
+              
+              <div class="col-auto my-1" id = 'exam_but1' style="padding-bottom:35px;">
+                <button type="submit" value="Submit" class="btn btn-primary">Register</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container" id="examf1" style="width:100%">
+
+    <div class="panel-group" >
+      <div class="panel panel-primary" >
+        <div class="panel-heading"></div>
+
+
+
+        <div class="panel-body" >
+
+          <form name="branchform" action="blood_donor_modify.html" method="GET">
+            <div class="form-row align-items-center">
+
+
+              <div class="col-auto my-1">
+                <label class="mr-sm-2" for="inlineFormCustomSelect">Mark A Blood Donor As Donated</label>
+              </div>
+             
+
+              
+              <div class="col-auto my-1" id = 'exam_but1' style="padding-bottom:35px;">
+                <button type="submit" value="Submit" class="btn btn-primary">Modify</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<script type="text/javascript">
+
+function myFunction()
+{
+  var str1 = window.localStorage.getItem("blood");
+  if(str1 == 'donor')
+    {
+    console.log("correct");  
+    }
+  else
+  {
+    window.open("blood_donor_auth.html","_self");
+      console.log("wrong");
+    
+  }
+}
+
+</script>
+
+
+<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

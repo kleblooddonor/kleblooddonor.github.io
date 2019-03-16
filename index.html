@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+  <!-- msrit Assist -->
+  <title>Blood Donors</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/gif/png" href="red.png">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script language="javascript" type="text/javascript" src="js/p5.js"></script>
+  <script language="javascript" type="text/javascript" src="js/p5.dom.js"></script>
+  <script type="text/javascript" src="js/exam.js"></script>
+
+
+
+
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <style type="text/css">
+    
+
+    #img1{ 
+      height: 500px;
+      width=80%;
+    }
+    @media (max-width: 800px) {
+      /* CSS that should be displayed if width is equal to or less than 800px goes here */
+      #img1{
+        height: 350px;
+        width: 75%;
+      }
+    }
+  </style>
+</head>
+<body onload="myfun()";>
+
+
+  <div class="fixed-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark mx-background-top-linear">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" style="text-transform: uppercase;"> Blood Donors</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="sis.html">SIS Portal</a>
+          </li> -->
+
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="exam.html">Exam results</a>
+          </li> -->
+
+          <li class="nav-item">
+            <a class="nav-link" href="blood_donor_auth.html">Blood donors</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="feedback.html">Feedback</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+
+
+<h2 id ="exam_head"><font size="10">Blood Donors</font></h2>
+<center><h2><font size="5">It just takes 10 minutes for you to save three lives!!!</font></h2></center>
+<!-- <center><h2><font size="5">Available Blood Donors : 64</font></h2></center>
+<center>
+  <img src="blood_group_count.jpeg" id='img1'>
+</center> -->
+
+
+
+<div class="container" id="examf1" style="width:100%">
+
+  <div class="panel-group">
+    <div class="panel panel-primary">
+      <div class="panel-heading"></div>
+
+     <form action="blood_register.html">
+        <h4 style="padding-left : 60px;">Register As A Emergency Blood Donor</h4>
+      <div style="padding-left : 60px;">
+        <button type="submit" value="Submit" class="btn btn-primary">Register</button>
+      </div>
+     </form>
+
+      <br></br>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container" id="examf1" style="width:100%">
+
+  <div class="panel-group">
+    <div class="panel panel-primary">
+      <div class="panel-heading"></div>
+
+
+
+      <div class="panel-body">
+        <form name="usnform" action="blood_auth2.html" method="GET">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Admin_ID</label>
+              <input type="text" class="form-control" id="inputEmail4" name="id" placeholder="id"  maxlength="10" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Password</label>
+              <input type="password" class="form-control" id="inputPassword4" name="pass" placeholder="Password" required>
+            </div>
+          </div>
+
+
+
+
+          <button type="submit"  value="Submit" class="btn btn-primary">Log in</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+</body>
+<script type="text/javascript">
+
+  function myfun()
+  {
+    window.localStorage.setItem("blood", "donr");
+  }
+
+  
+  function reg () {
+    window.open("https://docs.google.com/forms/d/e/1FAIpQLScPaKO8gknKJP-h6bmjSy5T8PiSHRDuRp_M5YmPYpomYWlsWA/viewform");
+
+  }
+
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135392376-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-135392376-1');
+</script>
+
+</html>

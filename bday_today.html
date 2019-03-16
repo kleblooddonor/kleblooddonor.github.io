@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>results</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <style>
+
+.container
+{
+  background-color: #c9c0bd;
+  width: 100%;
+}
+
+#rcorners3 {
+    border-radius: 25px;
+    background: #1abfe0;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+    font-size: 20px;    
+    text-align: center;
+    font-color : #FFFFFF;
+}
+
+#rcorners2 {
+    border-radius: 25px;
+    background: #1abfe0;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+    font-size: 20px;    
+    text-align: center;
+    font-color : #FFFFFF;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background: #1abfe0;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+    font-size: 20px;    
+    text-align: center;
+    font-color : #FFFFFF;
+}
+
+#rcorners0 {
+    border-radius: 25px;
+    background: #1abfe0;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+    font-size: 20px;    
+    text-align: center;
+    font-color : #FFFFFF;
+}
+
+#mytable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+#mytable td, #mytable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#mytable tr:nth-child(even){background-color: #f2f2f2;}
+
+#mytable tr:hover {background-color: #ddd;}
+
+#mytable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+@media (max-width: 800px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  #mytable {
+    width: 100%;
+}
+}
+</style>
+<script language="javascript" type="text/javascript" src="js/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="js/p5.dom.min.js"></script>
+  <script language="javascript" type="text/javascript" src="bday-js/bday-display.js"></script>
+
+</head>
+<body>
+
+<h1 style="text-align: center;" >MSRIT Bitrthday</h1>
+
+
+
+<div>
+  <br>
+</div>
+
+<div class="container" style="  background-color: white;
+" >
+  <div class="row">
+    <div class="col" id="degree">
+      
+    </div>
+    <div class="col" id ="department">
+      
+    </div>
+  </div>
+</div>
+
+<div>
+  <br>
+</div>
+
+
+<div  class="container" style="background-color: #FFFFFF;">
+  <div class="row">
+    <div class="col" id ="1">
+      
+    </div>
+    <div class="col" id = "2">
+      
+    </div>
+  </div>
+</div>
+
+<div>
+  <br>
+</div>
+
+
+
+
+<div id="head"></div>
+
+
+
+<center>
+    <table id="mytable">
+  <tr id="header">
+  
+    
+  </tr>
+  
+
+</table>
+
+</center>
+
+<script type="text/javascript">
+
+var branch;
+var sem;
+var usn;
+
+function setup(){
+
+  noCanvas();
+usn = "bday_updated";
+usn="birthday/"+usn+".txt";
+
+loadFile();
+}
+function loadFile(){
+  loadStrings(usn,fileloaded);
+}
+
+function fileloaded(txt) {
+  var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth() + 1; //January is 0!
+var yyyy = today.getFullYear();
+
+if (dd < 10) {
+  dd = '0' + dd;
+}
+
+if (mm < 10) {
+  mm = '0' + mm;
+}
+
+today ='-' + mm + '-' + dd;
+ var node = document.createElement("th");
+      var textnode = document.createTextNode("NAME");
+      node.appendChild(textnode);
+      document.getElementById("header").appendChild(node);
+      var node = document.createElement("th");
+      var textnode = document.createTextNode("USN");
+      node.appendChild(textnode);
+      document.getElementById("header").appendChild(node);
+      var node = document.createElement("th");
+      var textnode = document.createTextNode("DOB");
+      node.appendChild(textnode);
+      document.getElementById("header").appendChild(node);
+
+  var usn1,name1,dob1;
+
+
+ 
+for (var i = 0; i < txt.length-1; i++) {
+  if(today == txt[i].match(today)){
+    usn1 = txt[i-3];
+    name1 = txt[i-2];
+    dob1 = txt[i];
+
+    var mm = dob1[5]+dob1[6];
+  var dd = dob1[8]+dob1[9];
+  if(mm == 01)
+    mm = "Jan";
+  if(mm == 02)
+    mm = "Feb";
+  if(mm == 03)
+    mm = "March";
+  if(mm == 04)
+    mm = "April";
+  if(mm == 05)
+    mm = "May";
+  if(mm == 06)
+    mm = "June";
+  if(mm == 07)
+    mm = "July";
+  if(mm == 08)
+    mm = "Aug";
+  if(mm == 09)
+    mm = "Sept";
+  if(mm == 10)
+    mm = "Oct";
+  if(mm == 11)
+    mm = "Nov";
+  if(mm == 12)
+    mm = "Dec";
+
+  dob1 = mm + " " + dd;
+
+
+    var bdy=document.getElementsByTagName("body");
+   var tbl=document.getElementById("mytable");
+  var tr=document.createElement('tr');
+  var td1=document.createElement('td');
+  var textnode=document.createTextNode(name1);
+  td1.appendChild(textnode);
+  td1.setAttribute('id','header');
+  var td2=document.createElement('td');
+  var textnode=document.createTextNode(usn1);
+  td2.appendChild(textnode);
+  td2.setAttribute('id','header');
+  var td3=document.createElement('td');
+  var textnode=document.createTextNode(dob1);
+  td3.appendChild(textnode);
+  td3.setAttribute('id','header');
+  tr.appendChild(td1);
+  tr.appendChild(td2);
+  tr.appendChild(td3);
+  tbl.appendChild(tr);
+}
+}
+};
+
+
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135392376-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-135392376-1');
+</script>
+
+
+</body>
+</html>
+
