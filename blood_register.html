@@ -200,9 +200,8 @@ function showPosition(position) {
 		var contact = document.getElementById('a5').value;
 		var mail = document.getElementById('a6').value;
 		try{var gender = document.querySelector('input[name="gender"]:checked').value;
-if(contact.length<11)
-{
-	if(name != null && blood != null && age != null && contact != null && mail != null && gender && x.style.display != 'block')
+
+	if(name != null && blood != null && age != null && contact != null && mail != null && gender && x.style.display != 'block'&&contact.length<11)
 		{
 
 
@@ -229,9 +228,6 @@ if(contact.length<11)
 		}
 		else{
 			alert('please fill all fields');
-		}}else
-		{
-			alert('please enter valid Number!!!');
 		}
 }
 
